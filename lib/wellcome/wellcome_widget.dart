@@ -2,6 +2,7 @@ import '../components/tocar_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../home_page/home_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -88,15 +89,14 @@ class _WellcomeWidgetState extends State<WellcomeWidget>
         ),
         child: InkWell(
           onTap: () async {
-            context.pushNamed(
-              'HomePage',
-              extra: <String, dynamic>{
-                kTransitionInfoKey: TransitionInfo(
-                  hasTransition: true,
-                  transitionType: PageTransitionType.topToBottom,
-                  duration: Duration(milliseconds: 500),
-                ),
-              },
+            await Navigator.push(
+              context,
+              PageTransition(
+                type: PageTransitionType.topToBottom,
+                duration: Duration(milliseconds: 500),
+                reverseDuration: Duration(milliseconds: 500),
+                child: HomePageWidget(),
+              ),
             );
           },
           child: Column(

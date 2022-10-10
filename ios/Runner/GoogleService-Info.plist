@@ -32,5 +32,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:818631384313:ios:cb5a653d4d65bb3bcf5628</string>
+	<key>DATABASE_URL</key>
+	<string>https://tecnmschool-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

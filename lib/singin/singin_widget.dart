@@ -1,6 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../home_page/home_page_widget.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -99,10 +100,6 @@ class _SinginWidgetState extends State<SinginWidget> {
                       ),
                       controller: pinCodeController,
                       onChanged: (_) => {},
-                      onCompleted: (_) async {
-                        await Future.delayed(
-                            const Duration(milliseconds: 1000));
-                      },
                     ),
                   ),
                 ],
@@ -112,14 +109,14 @@ class _SinginWidgetState extends State<SinginWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 44),
               child: FFButtonWidget(
                 onPressed: () async {
-                  context.pushNamed(
-                    'HomePage',
-                    extra: <String, dynamic>{
-                      kTransitionInfoKey: TransitionInfo(
-                        hasTransition: true,
-                        transitionType: PageTransitionType.fade,
-                      ),
-                    },
+                  await Navigator.push(
+                    context,
+                    PageTransition(
+                      type: PageTransitionType.fade,
+                      duration: Duration(milliseconds: 300),
+                      reverseDuration: Duration(milliseconds: 300),
+                      child: HomePageWidget(),
+                    ),
                   );
                 },
                 text: 'Confirm & Continue',

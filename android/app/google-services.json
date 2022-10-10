@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "818631384313",
+    "firebase_url": "https://tecnmschool-default-rtdb.firebaseio.com",
     "project_id": "tecnmschool",
     "storage_bucket": "tecnmschool.appspot.com"
   },
