@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "818631384313",
+    "project_id": "tecnmschool",
+    "storage_bucket": "tecnmschool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818631384313:android:3024a3dafb2ce95dcf5628",
+        "android_client_info": {
+          "package_name": "com.worldservices.tecnm.guardian.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818631384313-2nppqe5qmlct4borvti4rupdmso4c4d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.worldservices.tecnm.guardian.com",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "818631384313-7od62kov1a152h0gaejoli7k0julr20s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0yUMsWiNkGXOf-JMES2mHHsRbhYKVKPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818631384313-7od62kov1a152h0gaejoli7k0julr20s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "818631384313-k141jkqkadi1rrradflr42g4vop79ck4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.worldservices.tecnm.guardian.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

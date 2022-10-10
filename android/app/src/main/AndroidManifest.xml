@@ -1,9 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mycompany.guardiaapp"
+    package="com.worldservices.tecnm.guardian.com"
     xmlns:tools="http://schemas.android.com/tools">
    <uses-permission android:name="android.permission.INTERNET"/>
 
-
+ <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
    <application
         android:label="guardiaAPP"
         tools:replace="android:label"
@@ -45,7 +46,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="guardiaapp" android:host="guardiaapp.com" />
+                <data android:scheme="http" android:host="" />
+                <data android:scheme="https" />
             </intent-filter>
 
         </activity>

@@ -22,14 +22,25 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
-	<array>        <dict>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.818631384313-k141jkqkadi1rrradflr42g4vop79ck4</string>
+                
+            </array>
+        </dict>
+
+        <dict>
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>guardiaapp.com</string>
+        <string>guardia_a_p_p</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>guardiaapp</string>
+        <string>com.worldservices.tecnm.guardian.com</string>
         </array>
         </dict>
     </array>
